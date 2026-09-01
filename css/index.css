@@ -214,7 +214,16 @@ label:not([for="acceptance"]) {
 /* Header */ 
 
 header {
+    position:sticky;
+    top: 0rem;
+    z-index: 10;
+    background-color: rgba(185, 185, 185, 0.5);
+
+}
+
+.header__content {
     max-width: 100%;
+    height: 4rem;
     padding: var(--spacing-md);
     display: flex;
     justify-content: space-between;
@@ -222,10 +231,6 @@ header {
     margin:  auto;
     gap: 7rem;
 
-    position:sticky;
-    top: 0rem;
-    z-index: 10;
-    background-color: rgba(185, 185, 185, 0.5);
 }
 
 nav {
@@ -240,3 +245,8 @@ nav {
         display: none;
     }*/
 }
+/* Header */ 
+
+/* Hero */
+
+/* Hero */
